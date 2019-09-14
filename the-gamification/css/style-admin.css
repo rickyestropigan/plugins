@@ -1,0 +1,12 @@
+.postbox h3{
+	padding-left: 10px;
+}
+.achievement-metabox label{
+	display:inline-block; width:120px;
+}
+.gami_action_show{
+	display:block;
+}
+.gami_action_hide{
+	display:none;
+}
