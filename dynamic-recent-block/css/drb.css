@@ -1,0 +1,56 @@
+.drb-widget{padding:0;margin:0;}
+.drb-widget li{list-style:none !important;}
+.drb-widget .glyphicon{margin-right:10px;}
+.drb-widget .is-separator{margin-bottom:17px;padding-bottom:17px;}
+.drb-widget a:hover{text-decoration:none;}
+.drb-widget .drb-container{position:relative;height:270px;}
+.drb-widget .drb-container:after {content:"";position:absolute;left:0;top:0;height:100%;width:100%;background: linear-gradient(to bottom, transparent 0%,rgba(0,0,0,1) 100%);}
+.drb-widget .drb-container img{width:100%;height:100%;object-fit:cover;}
+.drb-widget .drb-container .drb-box{padding:0 20px 30px;font-family: "Roboto", Helvetica, Arial, sans-serif;line-height: 23px;font-weight: 500;position:absolute;bottom:0;color:#fff;width:100%;z-index:555;}
+.drb-widget .drb-container .drb-box span{color:#fff;font-size:23px;font-weight:500;line-height:28px;}
+.drb-widget .drb-container .drb-box:after{content: '';
+    position: absolute;
+	background-color: #cd2122;
+    height: 2px;
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;}
+
+.drb-widget .drb-container:hover .drb-box:after{width:80px;}
+.drb-widget .drb-container:hover img{opacity:0.8;}
+
+.block-margin{margin-bottom:30px;}
+.dynamic-block .drb-container{height:420px;}
+.dynamic-block .drb-column{padding:0;margin:0;}
+
+.dynamic-block:nth-child(2) .one-fifth,
+.dynamic-block:nth-child(3) .one-fifth,
+.dynamic-block:nth-child(4) .one-fifth,
+.dynamic-block:nth-child(5) .one-fifth,
+
+.dynamic-block:nth-child(2) .one-third,
+.dynamic-block:nth-child(3) .one-third,
+
+.dynamic-block:nth-child(2) .one-fourth,
+.dynamic-block:nth-child(3) .one-fourth,
+.dynamic-block:nth-child(4) .one-fourth
+{width:25%;}
+
+.dynamic-block:nth-child(3) .one-fifth .drb-container,
+.dynamic-block:nth-child(4) .one-fifth .drb-container,
+.dynamic-block:nth-child(5) .one-fifth .drb-container
+{
+	height:140px;
+}
+
+.dynamic-block:nth-child(3) .one-fourth .drb-container,
+.dynamic-block:nth-child(4) .one-fourth .drb-container{
+	height:210px;
+}
+
+.dynamic-block .one-whole{width:100%;}
